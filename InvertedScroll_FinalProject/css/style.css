@@ -2,9 +2,9 @@
 /*something's funny with the font size, when I decrease to something more manageable it shrinks the size of everything else on the page vertically. */
 body {
     /*height: 1200px;*/
-    font-family: 'Amatica SC', cursive;
+    font-family: 'VT323', monospace;
     /*font-size: 300px;*/
-    color: #555;
+    color: #f0c666;
 }
 
 .container {
@@ -17,55 +17,61 @@ body {
 /*idea: Include some click clock on load in header: "T-Minus 5 / 4 / 3 / 2/ 1 "*/
     position: fixed;
     top: 0;
+    padding: 10px 35px;
     /*left: 300px;*/
     height: 60px;
     width: 100%;
-    background: pink;
+    background: #b10707;
+    font-size: 60px;
     overflow: hidden;
-    z-index: 2
+    z-index: 0;
 }
 
 /*Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto*/
 
-.Mercury_01 {
-  z-index: 1;
-}
-
-.Venus_02 {
-  z-index: 2;
-}
-
 .Rocket_XX {
-    background-image: url(../images/Rocket_04.png);
+    background-image: url(../images/Earth.png);
     background-repeat: no-repeat;
     position: fixed;
     height: 800px;
     left: 100px;
-    top: 70;
-    /*float: left*/
-    /*width: 20000px;*/
-    z-index: 3;
-    /*height: 100%;*/
-    /*width: 100%;*/
-    /*border: solid white 1px;*/
-    /*padding: 200px;*/
-    /*background: url(../images/Space_iStock-529675114_mirror.png);*/
-    /*background-size: cover;*/
-    /*position: absolute;*/
-    /*top: 0;
-    left: 0;*/
+    top: 170px;
+    z-index: 0;
+}
+
+.Mercury_01 {
+  position: fixed;
+  background-image: url(../images/Mercury.png);
+  background-repeat: no-repeat;
+  top: 200px;
+  left: 500px;
+  height: 900px;
+  width: 20000px;
+  z-index: 1;
+
+}
+
+.Venus_02 {
+  position: fixed;
+  background-image: url(../images/Venus.png);
+  background-repeat: no-repeat;
+  top: 220px;
+  left: 400px;
+  height: 1000px;
+  width: 20000px;
+  z-index: 2;
 }
 
 .Earth_03 {
   position: fixed;
-  background-image: url(../images/Earth.png);
+  background-image: url(../images/Rocket_04.png);
   background-repeat: no-repeat;
   height: 400px;
-  left: 50px;
-  top: 0;
+  left: 1100px;
+  top: 350px;
     /*float: left*/
     /*width: 20000px;*/
-  z-index: 3;
+  z-index: 9;
     /*height: 100%;*/
     /*width: 100%;*/
     /*border: solid white 1px;*/
@@ -81,9 +87,9 @@ body {
   position: fixed;
   background-image: url(../images/Mars.png);
   background-repeat: no-repeat;
-  top: 300px;
+  top: 230px;
   left: 400px;
-  height: 800px;
+  height: 1200px;
   width: 20000px;
   /*width: 20000px;*/
   z-index: 4;
@@ -93,9 +99,9 @@ body {
   position: fixed;
   background-image: url(../images/Jupiter.png);
   background-repeat: no-repeat;
-  top: 300px;
+  top: 240px;
   left: 400px;
-  height: 800px;
+  height: 1300px;
   width: 20000px;
   /*width: 20000px;*/
   z-index: 5;
@@ -104,9 +110,9 @@ body {
   position: fixed;
   background-image: url(../images/Saturn.png);
   background-repeat: no-repeat;
-  top: 300px;
+  top: 250px;
   left: 400px;
-  height: 800px;
+  height: 1400px;
   width: 20000px;
   z-index: 6;
 }
@@ -114,9 +120,9 @@ body {
   position: fixed;
   background-image: url(../images/Uranus.png);
   background-repeat: no-repeat;
-  top: 300px;
+  top: 260px;
   left: 400px;
-  height: 800px;
+  height: 1500px;
   width: 20000px;
   z-index: 7;
 }
@@ -124,14 +130,11 @@ body {
   position: fixed;
   background-image: url(../images/Neptune.png);
   background-repeat: no-repeat;
-  top: 300px;
+  top: 270px;
   left: 400px;
-  height: 800px;
+  height: 1600px;
   width: 20000px;
   z-index: 8;
-}
-.Pluto_09 {
-  z-index: 9;
 }
 
 .Horizon {
@@ -141,7 +144,7 @@ body {
     top: 60px;
     z-index: -1;
     width: 20000px;
-    height: 800px;
+    height: 1000px;
 }
 
 
