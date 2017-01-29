@@ -2,52 +2,62 @@
 /*something's funny with the font size, when I decrease to something more manageable it shrinks the size of everything else on the page vertically. */
 body {
     /*height: 1200px;*/
-    font-family: 'VT323', monospace;
+    font-family: 'Space Mono', monospace;
     /*font-size: 300px;*/
-    color: #f0c666;
+    color: #c3b491;
 }
 
 .container {
   width: 20000px;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  padding: 10px 35px;
+  height: 300px;
+  width: 200%;
+  background: gray;
+}
+
 .header {
 /*fixed header position will keep it in the same place ALWAYS.*/
 /*absolute position will make it disappear when scrolling downward.*/
 /*idea: Include some click clock on load in header: "T-Minus 5 / 4 / 3 / 2/ 1 "*/
-    position: fixed;
-    top: 0;
-    padding: 10px 35px;
+  position: fixed;
+  top: 0;
+  padding: 10px 35px;
     /*left: 300px;*/
-    height: 60px;
-    width: 100%;
-    background: #b10707;
-    font-size: 60px;
-    overflow: hidden;
-    z-index: 0;
+  height: 70px;
+  width: 100vw;
+  background: rgba(177, 7, 7, .4);
+  font-size: 40px;
 }
 
 /*Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto*/
 
+/*Position 1 (top right here is the static position)*/
 .Rocket_XX {
-    background-image: url(../images/Earth.png);
-    background-repeat: no-repeat;
-    position: fixed;
-    height: 800px;
-    left: 100px;
-    top: 170px;
-    z-index: 0;
+  background-image: url(../images/Earth.png);
+  /*background-size: 400px 800px;*/
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 400px;
+  height: 800px;
+  left: 100px;
+  top: 170px;
+  /*z-index: -5;*/
 }
 
 .Mercury_01 {
   position: fixed;
   background-image: url(../images/Mercury.png);
   background-repeat: no-repeat;
-  top: 200px;
-  left: 500px;
-  height: 900px;
-  width: 20000px;
-  z-index: 1;
+  top: 135px;
+  left: 0;
+  height: 400px;
+  width: 15000px;
+  /*z-index: 1;*/
 
 }
 
@@ -55,157 +65,166 @@ body {
   position: fixed;
   background-image: url(../images/Venus.png);
   background-repeat: no-repeat;
-  top: 220px;
-  left: 400px;
-  height: 1000px;
+  top: 120px;
+  left: 0;
+  height: 800px;
   width: 20000px;
-  z-index: 2;
+  /*z-index: 2;*/
 }
 
 .Earth_03 {
   position: fixed;
   background-image: url(../images/Rocket_04.png);
   background-repeat: no-repeat;
+  /*display: none;*/
   height: 400px;
-  left: 1100px;
+  width: 400px;
+  left: 0;
   top: 350px;
-    /*float: left*/
-    /*width: 20000px;*/
-  z-index: 9;
-    /*height: 100%;*/
-    /*width: 100%;*/
-    /*border: solid white 1px;*/
-    /*padding: 200px;*/
-    /*background: url(../images/Space_iStock-529675114_mirror.png);*/
-    /*background-size: cover;*/
-    /*position: absolute;*/
-    /*top: 0;
-    left: 0;*/
+  /*z-index: 3;*/
 }
 
 .Mars_04 {
   position: fixed;
   background-image: url(../images/Mars.png);
   background-repeat: no-repeat;
-  top: 230px;
-  left: 400px;
-  height: 1200px;
+  top: 180px;
+  left: 0;
+  height: 800px;
   width: 20000px;
-  /*width: 20000px;*/
-  z-index: 4;
+  /*z-index: 4;*/
+}
+
+.Asteroid_X {
+  position: fixed;
+  background-image: url(../images/Asteroid_X.png);
+  background-repeat: no-repeat;
+  top: 180px;
+  left: 0;
+  height: 800px;
+  width: 15000px;
+  /*z-index: 4;*/
 }
 
 .Jupiter_05 {
   position: fixed;
   background-image: url(../images/Jupiter.png);
   background-repeat: no-repeat;
-  top: 240px;
-  left: 400px;
+  top: 320px;
+  left: 0;
   height: 1300px;
   width: 20000px;
-  /*width: 20000px;*/
-  z-index: 5;
+  /*z-index: 5;*/
 }
+
+.Asteroid_XX {
+  position: fixed;
+  background-image: url(../images/Asteroid_XX.png);
+  background-repeat: no-repeat;
+  top: 200px;
+  left: 0;
+  height: 800px;
+  width: 15000px;
+  /*z-index: 4;*/
+}
+
 .Saturn_06 {
   position: fixed;
   background-image: url(../images/Saturn.png);
   background-repeat: no-repeat;
-  top: 250px;
+  top: 20px;
   left: 400px;
   height: 1400px;
   width: 20000px;
-  z-index: 6;
+  /*z-index: 6;*/
 }
 .Uranus_07 {
   position: fixed;
   background-image: url(../images/Uranus.png);
   background-repeat: no-repeat;
-  top: 260px;
+  top: 100px;
   left: 400px;
   height: 1500px;
-  width: 20000px;
-  z-index: 7;
+  width: 15000px;
+  /*z-index: 7;*/
 }
+
+/*The distance between*/
+.Uranus_A {
+  position: fixed;
+  background-image: url(../images/Uranus_A.png);
+  background-repeat: no-repeat;
+  top: 383px;
+  left: 400px;
+  height: 800px;
+  width: 21000px;
+  /*z-index: 8;*/
+}
+
+/*saturn and*/
+.Uranus_B {
+  position: fixed;
+  background-image: url(../images/Uranus_B.png);
+  background-repeat: no-repeat;
+  top: 383px;
+  left: 400px;
+  height: 800px;
+  width: 21800px;
+  /*z-index: 8;*/
+}
+
+/*The planet uranus*/
+.Uranus_C {
+  position: fixed;
+  background-image: url(../images/Uranus_C.png);
+  background-repeat: no-repeat;
+  top: 140px;
+  left: 400px;
+  height: 800px;
+  width: 18000px;
+  /*z-index: 8;*/
+}
+
+/*Is about 2 billion miles*/
+.Uranus_D {
+  position: fixed;
+  background-image: url(../images/Uranus_D.png);
+  background-repeat: no-repeat;
+  top: 160px;
+  left: 400px;
+  height: 800px;
+  width: 19600px;
+  /*z-index: 8;*/
+}
+
 .Neptune_08 {
   position: fixed;
   background-image: url(../images/Neptune.png);
   background-repeat: no-repeat;
-  top: 270px;
+  top: 100px;
   left: 400px;
-  height: 1600px;
+  height: 800px;
   width: 20000px;
-  z-index: 8;
+  /*z-index: 8;*/
 }
 
 .Horizon {
     background-image: url(../images/spaceBackground.png);
     background-repeat: repeat-x;
     position: fixed;
-    top: 60px;
+    /*top: 60px;*/
+    z-index: -2;
+    width: 20000px;
+    height: 100vh;
+}
+
+.Horizon2 {
+    background-image: url(../images/spaceBackground_half.png);
+    opacity: 0.9;
+    background-repeat: repeat-x;
+    position: fixed;
+    /*top: 60px;*/
     z-index: -1;
     width: 20000px;
-    height: 1000px;
+    height: 100vh;
 }
-
-
-/*
-.Earth {
-color: yellow;
-}*/
-
-/*.middle*/
-
-
-/*.front*/
-/*.Rocket
-{
-    z-index: 500;
-    top: 150px;
-    width: 300px;*/
-
-/*.intro
-{
-    position: absolute;
-    left: 500px;
-    top: 0px;
-    padding-right: 50px;
-    background: url('../images/scroll.png') no-repeat right 5px;
-}
-
-.page
-{
-    top: 0px;
-    width: 500px;
-    background: white;
-    padding: 10px 30px;
-    border: 1px #eee solid;
-    position: absolute;
-}
-
-.description
-{
-    left: 1500px;
-}
-
-.documentation
-{
-    left: 2450px;
-    width: 700px;
-}
-
-.options
-{
-    width: 700px;
-    left: 3800px;
-}
-
-.download
-{
-    width: 500px;
-    left: 5100px;
-}
-
-.license
-{
-    padding: 100px 30px 30px 30px;
-/*}*

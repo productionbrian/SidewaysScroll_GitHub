@@ -1,1 +1,1 @@
-$.jInvertScroll(['.header', '.Horizon', '.Mercury_01', '.Venus_02', '.Earth_03', '.Mars_04', '.Jupiter_05', '.Saturn_06', '.Uranus_07', '.Neptune_08']);
+$.jInvertScroll(['.header', '.Horizon', '.Mercury_01', '.Venus_02', '.Earth_03', '.Mars_04', '.Asteroid_X', '.Asteroid_XX','.Jupiter_05', '.Saturn_06', '.Uranus_A', '.Uranus_B', '.Uranus_C', '.Uranus_D','.Uranus_07', '.Neptune_08']);

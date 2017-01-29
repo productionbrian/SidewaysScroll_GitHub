@@ -28,7 +28,7 @@ I cann't figure out how to make #Mars_04 clickable to reveal the ID #marsRelatio
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../Planets/PopOut/Mercury_PopOut.png");
+  background-image: url("../Planet_Cards/PopOut/Mercury_PopOut.png");
   border: 0;
   border-radius: 20px 20px 8px 8px;
 }
@@ -38,7 +38,7 @@ I cann't figure out how to make #Mars_04 clickable to reveal the ID #marsRelatio
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../Planets/PopOut/Venus_PopOut.png");
+  background-image: url("../Planet_Cards/PopOut/Venus_PopOut.png");
   border: 0;
   border-radius: 20px 20px 8px 8px;
 }
@@ -48,7 +48,7 @@ I cann't figure out how to make #Mars_04 clickable to reveal the ID #marsRelatio
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../Planets/PopOut/Earth_PopOut.png");
+  background-image: url("../Planet_Cards/PopOut/Earth_PopOut.png");
   border: 0;
   border-radius: 20px 20px 8px 8px;
 }
@@ -57,7 +57,7 @@ I cann't figure out how to make #Mars_04 clickable to reveal the ID #marsRelatio
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../Planets/PopOut/Mars_PopOut.png");
+  background-image: url("../Planet_Cards/PopOut/Mars_PopOut.png");
   border: 0;
   border-radius: 20px 20px 8px 8px;
 }
@@ -67,7 +67,7 @@ I cann't figure out how to make #Mars_04 clickable to reveal the ID #marsRelatio
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../Planets/PopOut/Jupiter_PopOut.png");
+  background-image: url("../Planet_Cards/PopOut/Jupiter_PopOut.png");
   border: 0;
   border-radius: 20px 20px 8px 8px;
 }
@@ -77,7 +77,7 @@ I cann't figure out how to make #Mars_04 clickable to reveal the ID #marsRelatio
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../Planets/PopOut/Saturn_PopOut.png");
+  background-image: url("../Planet_Cards/PopOut/Saturn_PopOut.png");
   border: 0;
   border-radius: 20px 20px 8px 8px;
 }
@@ -87,7 +87,7 @@ I cann't figure out how to make #Mars_04 clickable to reveal the ID #marsRelatio
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../Planets/PopOut/Uranus_PopOut.png");
+  background-image: url("../Planet_Cards/PopOut/Uranus_PopOut.png");
   border: 0;
   border-radius: 20px 20px 8px 8px;
 }
@@ -97,7 +97,7 @@ I cann't figure out how to make #Mars_04 clickable to reveal the ID #marsRelatio
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../Planets/PopOut/Neptune_PopOut.png");
+  background-image: url("../Planet_Cards/PopOut/Neptune_PopOut.png");
   border: 0;
   border-radius: 20px 20px 8px 8px;
 }
